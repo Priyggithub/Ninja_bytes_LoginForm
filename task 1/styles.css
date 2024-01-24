@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(228, 211, 244);
+
+}
+#form{
+    background-color: white;
+    width :25%;
+    margin: 120px auto;
+    padding: 50px;
+    box-shadow: 10px 10px 5px rgb(82,11,77);
+    border-radius: 6px;
+}
+#btn{
+    color: white;
+    background-color: rgb(120, 116, 124);
+    padding: 10px;
+    font-size: large;
+    border-radius: 10px;
+}
+@media screen  and(max-width:700px) {
+    #form{
+        width: 65%;
+        padding: 40px;
+    }
+}
+
+    body{
+        background-image: url('image.jpg');
+        background-size: 1700px 1200px;
+        text-align: center;
+        margin: 100px;
+       
+    }
+    #welcome-message {
+        font-size: 45px;
+        color: rgb(81, 7, 76);
+        margin-bottom: 50px;
+    }
+    #login-form {
+        display: none;
+        size: 10px;
+        padding: 10px;
+    }
+    .button-style {
+        width: 200px;
+        height: 50px;
+        background-color: rgb(200, 155, 255);
+        border-radius: 10px;
+    }
+    
+    
+    
+
